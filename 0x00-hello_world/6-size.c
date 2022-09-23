@@ -2,8 +2,9 @@
 
 /**
  * main - Entry point
- * Description: Size of variable types
- * Return: 0
+ * Description: using the main function
+ * Prints the size of variable types
+ * return: 0
  */
 int main(void)
 {
