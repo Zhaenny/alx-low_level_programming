@@ -9,7 +9,9 @@
 
 int main(void)
 {
-	printf("_putchar\n");
+	char word[20] = '_putchar';
+
+	 _putchar("%s\n", word);
 
 	return (0);
 }
