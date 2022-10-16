@@ -11,7 +11,7 @@ int main(void)
 {
 	char word[20] = '_putchar';
 
-	 _putchar("%s\n", word);
+	putchar("%s\n", word);
 
 	return (0);
 }
