@@ -9,9 +9,14 @@
 
 int main(void)
 {
-	char word[8] = "_putchar";
+	int w;
+	char word[] = "_putchar";
 
-	putchar("%s\n", word);
+	for (w = 0; word[w] != '\0'; w++)
+	{
+		_putchar(word[w]);
+	}
 
+	_putchar('\n');
 	return (0);
 }
