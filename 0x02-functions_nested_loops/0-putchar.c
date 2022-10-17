@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int main - Entry point
+ * main - This program prints a function
  *
  * Return: Always success 0
  *
